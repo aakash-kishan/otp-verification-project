@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, {{ user.name }}!</h1>
+        <p>
+            <u>Details</u><br><br>
+            Date of Birth: {{ user.dob }}<br><br>
+            Age: {{ user.age }} yrs<br><br>
+            Phone Number: {{ user.ph }}<br><br>
+            Email: {{ user.email }}<br><br>
+            About: {{ user.about }}
+        </p>
+
+        <div id="email_div" class="text-center">
+            <a href="send_otp/">Send OTP</a>
+        </div>
+    </div>
+</body>
+</html>
